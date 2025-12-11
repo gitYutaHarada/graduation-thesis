@@ -1,0 +1,81 @@
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  11 DEC 2025 16:18
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./form/form.tex
+(form/form.tex
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+(C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/uplatex/base\ujreport.cls
+Document Class: ujreport 2020/09/30 v1.8f-u00 Standard upLaTeX class
+\c@@paper=\count274
+(C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/uplatex/base\ujsize12.clo
+File: ujsize12.clo 2020/09/30 v1.8f-u00 Standard upLaTeX file (size option)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 28.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 28.
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 705.
+\toclineskip=\dimen164
+\@lnumwidth=\dimen165
+\bibindent=\dimen166
+\heisei=\count284
+)
+
+! LaTeX Error: File `../sty/TitlePage.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: yuta
+
+! LaTeX Error: File `yuta.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: form.tex
+
+! LaTeX Error: File `form.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: form/form.tex
+(form/form.tex
+
+! LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[uplatex,12pt,a4j]{
+                                     ujreport}
+The document may only declare one class.
+
+ 
+Here is how much of TeX's memory you used:
+ 346 strings out of 468510
+ 4406 string characters out of 5434306
+ 426581 words of memory out of 5000000
+ 29318 multiletter control sequences out of 15000+600000
+ 630660 words of font info for 59 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 35i,0n,38p,132b,44s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
