@@ -1,9 +1,0 @@
-PWD C:\Users\socce\4nd year\software labratory\bthesis
-INPUT C:\Users\socce\AppData\Local\MiKTeX\miktex\data\le\euptex\uplatex.fmt
-OUTPUT form.log
-INPUT C:\Users\socce\AppData\Local\Programs\MiKTeX\tex\uplatex\base\ujreport.cls
-INPUT C:\Users\socce\AppData\Local\Programs\MiKTeX\tex\uplatex\base\ujsize12.clo
-INPUT C:\Users\socce\AppData\Local\Programs\MiKTeX\tex\uplatex\base\ujsize12.clo
-INPUT C:\Users\socce\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT .\form\form.tex
-INPUT .\form\form.tex

@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{traffic_stats_estat}
+{警察庁}.
+\newblock 交通事故統計.
+\newblock
+  \url{https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00130002&tstat=000001027457&cycle=7&year=20240&month=0&stat_infid=000040249644&tclass1val=0},
+  2024.
+\newblock e-Stat 政府統計の総合窓口 (閲覧日: 2024年X月X日).
+
+\bibitem{pop_2024}
+{総務省統計局}.
+\newblock 人口推計（2024年10月1日現在確定値）.
+\newblock \url{https://www.stat.go.jp/data/jinsui/2024np/index.html#a05k01-a},
+  2024.
+\newblock 統計データ: 2024年10月1日時点 (閲覧日:
+  2025年12月13日).
+
+\bibitem{econ_loss}
+{内閣府}.
+\newblock 令和4年度
+  交通事故の被害・損失の経済的分析に関する調査研究（要旨）.
+\newblock \url{https://www8.cao.go.jp/koutu/chou-ken/r04/pdf/youshi.pdf}, 2023.
+\newblock 閲覧日: 2025年12月13日.
+
+\bibitem{npa_opendata}
+警察庁.
+\newblock 交通事故統計情報のオープンデータ, 2024.
+\newblock （2019年から2024年のデータを収録）.
+
+\bibitem{flanagan2008ruby}
+David Flanagan and Yukihiro Matsumoto.
+\newblock {\em The ruby programming language}.
+\newblock O'Reilly Media, Inc., 2008.
+
+\bibitem{goto2010bioruby}
+Naohisa Goto, Pjotr Prins, Mitsuteru Nakao, Raoul Bonnal, Jan Aerts, and
+  Toshiaki Katayama.
+\newblock Bioruby: bioinformatics software for the ruby programming language.
+\newblock {\em Bioinformatics}, 26(20):2617--2619, 2010.
+
+\bibitem{matsumoto2002ruby}
+Yukio Matsumoto and K~Ishituka.
+\newblock Ruby programming language, 2002.
+
+\bibitem{fulton2006ruby}
+Hal Fulton.
+\newblock {\em The ruby way: solutions and techniques in ruby programming}.
+\newblock Addison-Wesley Professional, 2006.
+
+\bibitem{richardson2008restful}
+Leonard Richardson and Sam Ruby.
+\newblock {\em RESTful web services}.
+\newblock O'Reilly Media, Inc., 2008.
+
+\bibitem{sasada2005yarv}
+Koichi Sasada.
+\newblock Yarv: yet another rubyvm: innovating the ruby interpreter.
+\newblock In {\em Companion to the 20th annual ACM SIGPLAN conference on
+  Object-oriented programming, systems, languages, and applications}, pages
+  158--159. ACM, 2005.
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+% ==============================================
+% カスタムコマンドの定義（参照用）
+% ==============================================
+% 図・表・ソースコードへの参照
+\newcommand{\figref}[1]{図~\ref{fig:#1}}
+\newcommand{\tabref}[1]{表~\ref{tab:#1}}
+\newcommand{\srcref}[1]{ソースコード~\ref{src:#1}}
+
+% 章・節・項への参照
+\newcommand{\refchapter}[1]       {第\ref{#1}~章}
+\newcommand{\refsection}[1]       {\ref{#1}~節}
+\newcommand{\refsubsection}[1]    {\ref{#1}~項}
+
+% 表の中で位置を下にずらして書く
+\newcommand{\lw}[1]{\smash{\lower2.0ex \hbox{#1}}}
