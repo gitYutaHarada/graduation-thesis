@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  11 DEC 2025 16:36
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  13 DEC 2025 19:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -306,11 +306,11 @@ File: lstmisc.sty 2025/10/06 1.11 (Carsten Heinz)
 Define lst-aspect `directives': directives, moredirectives, deletedirectives,
 directivestyle, 
 Allocs: none
-)
+) (chapters/title.tex)
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 111.
+(Font)              scaled to size 11.54663pt on input line 106.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 111.
+(Font)              scaled to size 11.54663pt on input line 106.
 
 (C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
 ps.def
@@ -323,118 +323,97 @@ File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 ) (form.aux)
 \openout1 = `form.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 \c@lstlisting=\count301
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 113.
+(Font)              scaled to size 23.94002pt on input line 108.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 113.
+(Font)              scaled to size 23.94002pt on input line 108.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 113.
+(Font)              scaled to size 13.85594pt on input line 108.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 113.
+(Font)              scaled to size 13.85594pt on input line 108.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 113.
+(Font)              scaled to size 19.95642pt on input line 108.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 113.
+(Font)              scaled to size 19.95642pt on input line 108.
  [1
 
 ]
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 116.
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 116.
+(Font)              scaled to size 23.94002pt on input line 111.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 116.
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 116.
- (form.toc
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 1.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 3.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 3.
-)
+(Font)              scaled to size 23.94002pt on input line 111.
+
+No file form.toc.
 \tf@toc=\write3
 \openout3 = `form.toc'.
 
- [1
+[1
 
 ] (chapters/introduction.tex
 第 1 章
-
-LaTeX Warning: Citation `bt:tsuji2011' on page 1 undefined on input line 20.
-
-
-LaTeX Warning: Citation `IPSJ2012Tsuji' on page 1 undefined on input line 20.
-
-
-LaTeX Warning: Citation `bt:ryutaro2012' on page 1 undefined on input line 21.
-
-
-LaTeX Warning: Citation `bt:miyairi2013' on page 1 undefined on input line 22.
-
-
-LaTeX Warning: Citation `ipsj:miyairi2013' on page 1 undefined on input line 22
-.
-
-
-LaTeX Warning: Citation `mt:RyutaroOkamoto2014' on page 1 undefined on input li
-ne 23.
-
-
-LaTeX Warning: Citation `ipsj:RyutaroOkamoto2014' on page 1 undefined on input 
-line 24.
-
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 21.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 21.
 
 LaTeX Warning: Citation `wikipedia:DonaldKnuth' on page 1 undefined on input li
-ne 26.
+ne 21.
 
 
-LaTeX Warning: Citation `KnuthRao1975' on page 1 undefined on input line 27.
+LaTeX Warning: Citation `KnuthRao1975' on page 1 undefined on input line 22.
 
 
 LaTeX Warning: Citation `wikipedia:LeslieLamport' on page 1 undefined on input 
-line 28.
+line 23.
 
 
 LaTeX Warning: Citation `Lamport:2015:BHW:2749359.2736348' on page 1 undefined 
-on input line 29.
+on input line 24.
 
 [1
 
 
-]) (chapters/related_work.tex [2]
+]
+
+LaTeX Warning: Reference `ch:rw' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Reference `ch:imple' on page 2 undefined on input line 60.
+
+
+LaTeX Warning: Reference `ch:eval' on page 2 undefined on input line 61.
+
+
+LaTeX Warning: Reference `ch:con' on page 2 undefined on input line 62.
+
+) (chapters/related_work.tex [2]
 第 2 章
 
 LaTeX Warning: Citation `flanagan2008ruby' on page 3 undefined on input line 6.
@@ -463,6 +442,16 @@ LaTeX Warning: Citation `matsumoto2002ruby' on page 3 undefined on input line 1
 
 LaTeX Warning: Citation `fulton2006ruby' on page 3 undefined on input line 19.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 23.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 23.
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT2/hgt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
@@ -511,11 +500,17 @@ LaTeX Warning: Citation `matsumoto2002ruby' on page 5 undefined on input line 1
 
 LaTeX Warning: Citation `fulton2006ruby' on page 5 undefined on input line 14.
 
+
+LaTeX Warning: Reference `fig:rectangle' on page 5 undefined on input line 20.
+
 File: ../img/sample.pdf Graphic file (type pdf)
 <../img/sample.pdf>
 
 LaTeX Warning: Citation `richardson2008restful' on page 5 undefined on input li
 ne 42.
+
+
+LaTeX Warning: Reference `tab:情テク' on page 5 undefined on input line 45.
 
 
 LaTeX Warning: Citation `sasada2005yarv' on page 5 undefined on input line 67.
@@ -526,6 +521,9 @@ LaTeX Warning: Citation `sasada2005yarv' on page 5 undefined on input line 67.
 
 LaTeX Warning: Citation `richardson2008restful' on page 7 undefined on input li
 ne 80.
+
+
+LaTeX Warning: Reference `src:pb2bmi' on page 7 undefined on input line 89.
 
 (C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/10/06 1.11 listings language file
@@ -570,32 +568,12 @@ LaTeX Font Info:    Kanji font shape `JY2/hmc/m/sl' undefined
 
 [7]) (chapters/evaluation.tex [8]
 第 4 章
-
-LaTeX Warning: Citation `flanagan2008ruby' on page 9 undefined on input line 6.
-
-
-
-LaTeX Warning: Citation `goto2010bioruby' on page 9 undefined on input line 11.
-
-
-
-LaTeX Warning: Citation `matsumoto2002ruby' on page 9 undefined on input line 1
-4.
-
-
-LaTeX Warning: Citation `richardson2008restful' on page 9 undefined on input li
-ne 37.
-
 [9
 
 ]
 
-LaTeX Warning: Citation `sasada2005yarv' on page 10 undefined on input line 48.
-
-
-
 LaTeX Warning: Citation `richardson2008restful' on page 10 undefined on input l
-ine 61.
+ine 56.
 
 ) (chapters/conclusion.tex [10]
 第 5 章
@@ -619,14 +597,17 @@ L3 programming layer <2025-10-24>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5360 strings out of 468510
- 77710 string characters out of 5434306
- 699590 words of memory out of 5000000
- 34173 multiletter control sequences out of 15000+600000
+ 5362 strings out of 468510
+ 77788 string characters out of 5434306
+ 699002 words of memory out of 5000000
+ 34175 multiletter control sequences out of 15000+600000
  644847 words of font info for 102 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  57i,8n,65p,964b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on form.dvi (17 pages, 46740 bytes).
+Output written on form.dvi (17 pages, 40940 bytes).
