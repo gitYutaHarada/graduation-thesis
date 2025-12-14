@@ -28,6 +28,34 @@
 \newblock 交通事故統計情報のオープンデータ, 2024.
 \newblock （2019年から2024年のデータを収録）.
 
+\bibitem{bicycle_assoc}
+坪井 志郎, 三村 康広, and 嶋田 善昭.
+\newblock
+  アソシエーション分析を用いた自転車関連事故の特性分析.
+\newblock In {\em
+  第44回交通工学研究発表会論文集（研究論文）}, volume~44,
+  pages 364--369, 2024.
+\newblock
+  （自転車事故という特定の車種・形態に焦点を当てた研究）.
+
+\bibitem{citizen_science}
+青木 和人.
+\newblock
+  シチズンサイエンスによる交通事故統計情報オープンデータ分析.
+\newblock In {\em 2022年度社会情報学会（SSI）学会大会予稿集：
+  連携報告2「オープンデータ・オープンガバメント」},
+  volume 2022, pages 1--6, 2022.
+\newblock
+  （オープンデータの可視化や市民参加型活用に関する研究）.
+
+\bibitem{fuzzy_factor}
+野口 直樹, 乾口 雅弘, 林 直樹, 関 宏理, 須山 崇仁, and
+  長谷川 潤.
+\newblock 交通事故データの解析による重大事故の要因探索.
+\newblock In {\em 第 37 回ファジィシステムシンポジウム
+  講演論文集 (FSS2021 オンライン}, volume~37, pages 675--678, 2021.
+\newblock （ファジィ理論等を用いた要因探索的研究）.
+
 \bibitem{flanagan2008ruby}
 David Flanagan and Yukihiro Matsumoto.
 \newblock {\em The ruby programming language}.

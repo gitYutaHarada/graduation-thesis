@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  13 DEC 2025 22:13
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  14 DEC 2025 13:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -395,21 +395,13 @@ LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
 ] (chapters/introduction.tex
 第 1 章
 
-LaTeX Warning: Citation `traffic_eng_book' on page 1 undefined on input line 7.
+LaTeX Warning: Citation `traffic_eng_book' on page 1 undefined on input line 8.
 
 
-
-LaTeX Warning: Citation `existing_study_a' on page 1 undefined on input line 8.
-
+[1
 
 
-LaTeX Warning: Citation `existing_study_b' on page 1 undefined on input line 8.
-
-
-) (chapters/related_work.tex [1
-
-
-]
+]) (chapters/related_work.tex [2]
 第 2 章
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
 (Font)              scaled to size 16.62714pt on input line 8.
@@ -431,25 +423,25 @@ LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY2/hgt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 36.
-[2
+[3
 
 ]
 
-LaTeX Warning: Reference `rw_xxx' on page 3 undefined on input line 76.
+LaTeX Warning: Reference `rw_xxx' on page 4 undefined on input line 76.
 
 
-LaTeX Warning: Reference `rw_yyy ' on page 3 undefined on input line 77.
+LaTeX Warning: Reference `rw_yyy ' on page 4 undefined on input line 77.
 
 
-LaTeX Warning: Reference `rw_zzz' on page 3 undefined on input line 78.
+LaTeX Warning: Reference `rw_zzz' on page 4 undefined on input line 78.
 
-) (chapters/implementation.tex [3]
+) (chapters/implementation.tex [4]
 第 3 章
 File: ../img/sample.pdf Graphic file (type pdf)
 <../img/sample.pdf>
-[4
+[5
 
-] [5]
+] [6]
 (C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/10/06 1.11 listings language file
 )
@@ -491,15 +483,15 @@ LaTeX Font Info:    Kanji font shape `JY2/hmc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY2/hmc/m/sl' undefined
 (Font)              No change on input line 92.
 
-[6]) (chapters/evaluation.tex [7]
+[7]) (chapters/evaluation.tex [8]
 第 4 章
-[8
+[9
 
-]) (chapters/conclusion.tex [9]
+]) (chapters/conclusion.tex [10]
 第 5 章
-) [10
+) [11
 
-] (frontmatter/thanks.tex) [11
+] (frontmatter/thanks.tex) [12
 
 ] (form.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -514,18 +506,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--10
  []
 
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
-(Font)              No change on input line 33.
+(Font)              No change on input line 35.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
-(Font)              No change on input line 40.
+(Font)              No change on input line 45.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
-(Font)              No change on input line 48.
+(Font)              No change on input line 55.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
-(Font)              No change on input line 53.
+(Font)              No change on input line 61.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
-(Font)              No change on input line 59.
-) [12
+(Font)              No change on input line 68.
+[13
 
-] [13] (appendix/appendix.tex) [1
+]
+LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
+(Font)              No change on input line 76.
+LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
+(Font)              No change on input line 81.
+LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
+(Font)              No change on input line 87.
+) [14] [15] (appendix/appendix.tex) [1
 
 
 ] (appendix/QA.tex) [1
@@ -542,12 +541,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5415 strings out of 468510
- 79324 string characters out of 5434306
- 699618 words of memory out of 5000000
- 34207 multiletter control sequences out of 15000+600000
+ 5418 strings out of 468510
+ 79370 string characters out of 5434306
+ 699633 words of memory out of 5000000
+ 34210 multiletter control sequences out of 15000+600000
  645531 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 62i,8n,68p,1131b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,8n,68p,1134b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on form.dvi (17 pages, 44740 bytes).
+Output written on form.dvi (19 pages, 48888 bytes).
