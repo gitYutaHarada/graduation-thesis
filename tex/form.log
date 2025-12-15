@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  14 DEC 2025 16:59
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  15 DEC 2025 11:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -419,13 +419,13 @@ LaTeX Warning: Citation `traffic_eng_book' on page 1 undefined on input line 7.
 
 ]
 LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 30.
+(Font)              scaled to size 13.85594pt on input line 32.
 LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 30.
+(Font)              scaled to size 13.85594pt on input line 32.
  [4]) (chapters/related_work.tex [5]
 第 3 章
 [6
@@ -546,12 +546,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5424 strings out of 468510
- 79659 string characters out of 5434306
- 699595 words of memory out of 5000000
- 34213 multiletter control sequences out of 15000+600000
+ 5423 strings out of 468510
+ 79637 string characters out of 5434306
+ 699568 words of memory out of 5000000
+ 34212 multiletter control sequences out of 15000+600000
  645531 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  62i,8n,68p,1134b,1568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on form.dvi (23 pages, 65112 bytes).
+Output written on form.dvi (23 pages, 65828 bytes).
