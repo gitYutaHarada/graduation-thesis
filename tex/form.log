@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  14 DEC 2025 13:15
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (MiKTeX 25.4) (preloaded format=uplatex 2025.12.11)  14 DEC 2025 16:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -377,71 +377,76 @@ LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 2.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 3.
+(Font)              scaled to size 7.69775pt on input line 2.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 3.
-)
+(Font)              scaled to size 5.77332pt on input line 2.
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `form.toc'.
 
- [1
-
-] (chapters/introduction.tex
+ [2] (chapters/introduction.tex
 第 1 章
+LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 3.
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 3.
 
-LaTeX Warning: Citation `traffic_eng_book' on page 1 undefined on input line 8.
+LaTeX Warning: Citation `traffic_eng_book' on page 1 undefined on input line 7.
 
 
 [1
 
 
-]) (chapters/related_work.tex [2]
+]) (chapters/data_and_preprocessing.tex [2]
 第 2 章
-LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 8.
-LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 36.
-LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 36.
 [3
 
 ]
-
-LaTeX Warning: Reference `rw_xxx' on page 4 undefined on input line 76.
-
-
-LaTeX Warning: Reference `rw_yyy ' on page 4 undefined on input line 77.
-
-
-LaTeX Warning: Reference `rw_zzz' on page 4 undefined on input line 78.
-
-) (chapters/implementation.tex [4]
+LaTeX Font Info:    Font shape `JT2/hmc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/hgt/m/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 30.
+LaTeX Font Info:    Font shape `JY2/hmc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/hgt/m/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 30.
+ [4]) (chapters/related_work.tex [5]
 第 3 章
+[6
+
+]
+
+LaTeX Warning: Reference `rw_xxx' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Reference `rw_yyy ' on page 7 undefined on input line 77.
+
+
+LaTeX Warning: Reference `rw_zzz' on page 7 undefined on input line 78.
+
+) (chapters/implementation.tex [7]
+第 4 章
 File: ../img/sample.pdf Graphic file (type pdf)
 <../img/sample.pdf>
-[5
+[8
 
-] [6]
+] [9]
 (C:\Users\socce\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/10/06 1.11 listings language file
 )
@@ -483,15 +488,15 @@ LaTeX Font Info:    Kanji font shape `JY2/hmc/m/sl' undefined
 LaTeX Font Info:    Kanji font shape `JY2/hmc/m/sl' undefined
 (Font)              No change on input line 92.
 
-[7]) (chapters/evaluation.tex [8]
-第 4 章
-[9
-
-]) (chapters/conclusion.tex [10]
+[10]) (chapters/evaluation.tex [11]
 第 5 章
-) [11
+[12
 
-] (frontmatter/thanks.tex) [12
+]) (chapters/conclusion.tex [13]
+第 6 章
+) [14
+
+] (frontmatter/thanks.tex) [15
 
 ] (form.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
@@ -515,7 +520,7 @@ LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
 (Font)              No change on input line 61.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
 (Font)              No change on input line 68.
-[13
+[16
 
 ]
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
@@ -524,7 +529,7 @@ LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
 (Font)              No change on input line 81.
 LaTeX Font Info:    Kanji font shape `JY2/hgt/m/it' undefined
 (Font)              No change on input line 87.
-) [14] [15] (appendix/appendix.tex) [1
+) [17] [18] (appendix/appendix.tex) [1
 
 
 ] (appendix/QA.tex) [1
@@ -541,12 +546,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5418 strings out of 468510
- 79370 string characters out of 5434306
- 699633 words of memory out of 5000000
- 34210 multiletter control sequences out of 15000+600000
+ 5424 strings out of 468510
+ 79659 string characters out of 5434306
+ 699595 words of memory out of 5000000
+ 34213 multiletter control sequences out of 15000+600000
  645531 words of font info for 103 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 62i,8n,68p,1134b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,8n,68p,1134b,1568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on form.dvi (19 pages, 48888 bytes).
+Output written on form.dvi (23 pages, 65112 bytes).
