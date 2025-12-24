@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{traffic_stats_estat}
 {警察庁}.
@@ -55,37 +55,5 @@
 \newblock In {\em 第 37 回ファジィシステムシンポジウム
   講演論文集 (FSS2021 オンライン}, volume~37, pages 675--678, 2021.
 \newblock （ファジィ理論等を用いた要因探索的研究）.
-
-\bibitem{flanagan2008ruby}
-David Flanagan and Yukihiro Matsumoto.
-\newblock {\em The ruby programming language}.
-\newblock O'Reilly Media, Inc., 2008.
-
-\bibitem{goto2010bioruby}
-Naohisa Goto, Pjotr Prins, Mitsuteru Nakao, Raoul Bonnal, Jan Aerts, and
-  Toshiaki Katayama.
-\newblock Bioruby: bioinformatics software for the ruby programming language.
-\newblock {\em Bioinformatics}, 26(20):2617--2619, 2010.
-
-\bibitem{matsumoto2002ruby}
-Yukio Matsumoto and K~Ishituka.
-\newblock Ruby programming language, 2002.
-
-\bibitem{fulton2006ruby}
-Hal Fulton.
-\newblock {\em The ruby way: solutions and techniques in ruby programming}.
-\newblock Addison-Wesley Professional, 2006.
-
-\bibitem{richardson2008restful}
-Leonard Richardson and Sam Ruby.
-\newblock {\em RESTful web services}.
-\newblock O'Reilly Media, Inc., 2008.
-
-\bibitem{sasada2005yarv}
-Koichi Sasada.
-\newblock Yarv: yet another rubyvm: innovating the ruby interpreter.
-\newblock In {\em Companion to the 20th annual ACM SIGPLAN conference on
-  Object-oriented programming, systems, languages, and applications}, pages
-  158--159. ACM, 2005.
 
 \end{thebibliography}

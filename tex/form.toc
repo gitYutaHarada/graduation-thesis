@@ -10,25 +10,8 @@
 \contentsline {subsection}{\numberline {2.3.2}地理情報のクラスタリング (Geo-Clustering)}{5}{}%
 \contentsline {subsection}{\numberline {2.3.3}道路種別の集約}{5}{}%
 \contentsline {section}{\numberline {2.4}目的変数の設定と不均衡データ}{5}{}%
-\contentsline {chapter}{\numberline {第3章}基礎・関連}{6}{}%
-\contentsline {section}{\numberline {3.1}定義}{6}{}%
-\contentsline {subsection}{\numberline {3.1.1}誤字小説}{6}{}%
-\contentsline {subsection}{\numberline {3.1.2}Web 関連情報}{7}{}%
-\contentsline {section}{\numberline {3.2}参照}{7}{}%
-\contentsline {chapter}{\numberline {第4章}実装}{8}{}%
-\contentsline {section}{\numberline {4.1}ズズズズズ}{8}{}%
-\contentsline {subsection}{\numberline {4.1.1}野生の豹と飼育された豹}{8}{}%
-\contentsline {subsection}{\numberline {4.1.2}完全実装}{10}{}%
-\contentsline {section}{\numberline {4.2}ソースコードの裏の裏の裏}{10}{}%
-\contentsline {section}{\numberline {4.3}文献データベースと BibTeX}{11}{}%
-\contentsline {chapter}{\numberline {第5章}評価}{12}{}%
-\contentsline {section}{\numberline {5.1}箇条書きの回避}{12}{}%
-\contentsline {subsection}{\numberline {5.1.1}実検実権実験}{12}{}%
-\contentsline {subsection}{\numberline {5.1.2}実験}{13}{}%
-\contentsline {section}{\numberline {5.2}庭での実験}{13}{}%
-\contentsline {chapter}{\numberline {第6章}まとめ}{14}{}%
-\contentsline {chapter}{謝辞}{15}{}%
-\contentsline {chapter}{参考文献}{16}{}%
-\contentsline {chapter}{付録}{18}{}%
+\contentsline {chapter}{謝辞}{6}{}%
+\contentsline {chapter}{参考文献}{7}{}%
+\contentsline {chapter}{付録}{8}{}%
 \contentsline {chapter}{付録 A \\第123回情報処理学会全国大会発表論文}{A-1}
 \contentsline {chapter}{付録 B \\質疑応答}{B-1}
