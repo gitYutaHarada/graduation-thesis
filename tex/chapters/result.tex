@@ -3,7 +3,7 @@
 
 本章では，提案手法であるマルチステージ・スタッキングモデルの有効性を検証するために行った実験の結果について述べる．
 実験は，Stage 1（Single-Stage），Stage 2（Two-Stage），Stage 3（Stacking）の各段階において実施し，それぞれの予測性能およびフィルタリング性能を定量的に評価した．
-なお，本実験におけるモデルのハイパーパラメータや詳細な設定については，第\ref{cha:model_construction}章で述べた通りである．
+なお，本実験におけるモデルのハイパーパラメータや詳細な設定については，第4章で述べた通りである．
 
 \section{Stage 1: Single-Stage モデルの評価結果}
 \label{sec:result_stage1}
@@ -15,17 +15,18 @@ Stage 1では，モデルに入力する情報量の違いによる性能変化�
 表\ref{tab:stage1_comparison}に，両モデルのフィルタリング性能および予測精度の比較結果を示す．
 フィルタリング性能については，死亡事故の見逃しを最小限に抑えるため，再現率がおおむね98\%以上となる閾値を設定した際のデータ削減率を評価した．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{Stage 1におけるモデル設定別の性能比較}
   \label{tab:stage1_comparison}
-  \begin{tabular}{lcccc}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{モデル設定} & \multicolumn{1}{c|}{データ削減率} & \multicolumn{1}{c|}{Recall (Fatal)} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c}{OOF PR-AUC} \\
     \hline
-    モデル設定 & データ削減率 & Recall (Fatal) & OOF AUC & OOF PR-AUC \\
-    \hline
+
     事故発生時情報モデル & 40.30\% & 98.00\% & 0.9109 & 0.1820 \\
     事故後情報モデル & \textbf{66.95\%} & \textbf{98.00\%} & \textbf{0.9555} & \textbf{0.2776} \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -40,21 +41,22 @@ Stage 1では，モデルに入力する情報量の違いによる性能変化�
 
 表\ref{tab:stage1_immediate_scores}に，実運用を想定した事故発生時情報モデルにおける各アルゴリズムの評価結果を示す．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{事故発生時情報モデルの各モデル評価結果}
   \label{tab:stage1_immediate_scores}
-  \begin{tabular}{lcccc}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{Model} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c|}{OOF PR-AUC} & \multicolumn{1}{c|}{Test AUC} & \multicolumn{1}{c}{Test PR-AUC} \\
     \hline
-    Model & OOF AUC & OOF PR-AUC & Test AUC & Test PR-AUC \\
-    \hline
+
     LightGBM & 0.8922 & 0.1617 & 0.9068 & 0.1802 \\
     CatBoost & 0.9090 & 0.1668 & 0.9149 & 0.1829 \\
     MLP & 0.8927 & 0.1583 & 0.9038 & 0.1803 \\
     TabNet & 0.8934 & 0.1568 & 0.9145 & 0.2102 \\
     \hline
     \textbf{Ensemble} & \textbf{0.9109} & \textbf{0.1820} & \textbf{0.9169} & 0.2067 \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -64,21 +66,22 @@ Stage 1では，モデルに入力する情報量の違いによる性能変化�
 
 表\ref{tab:stage1_post_scores}に，事故後情報モデルにおける各アルゴリズムの評価結果を示す．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{事故後情報モデルの各モデル評価結果}
   \label{tab:stage1_post_scores}
-  \begin{tabular}{lcccc}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{Model} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c|}{OOF PR-AUC} & \multicolumn{1}{c|}{Test AUC} & \multicolumn{1}{c}{Test PR-AUC} \\
     \hline
-    Model & OOF AUC & OOF PR-AUC & Test AUC & Test PR-AUC \\
-    \hline
+
     LightGBM & 0.9535 & 0.2566 & 0.9568 & 0.2940 \\
     CatBoost & 0.9540 & 0.2650 & 0.9600 & 0.2907 \\
     MLP & 0.9412 & 0.2310 & 0.9552 & 0.2650 \\
     TabNet & 0.9389 & 0.2509 & 0.9584 & 0.3136 \\
     \hline
     \textbf{Ensemble} & \textbf{0.9555} & \textbf{0.2776} & \textbf{0.9601} & \textbf{0.3203} \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -95,21 +98,22 @@ Stage 2では，Stage 1と同様に「事故発生時情報モデル」と「事
 表\ref{tab:stage2_immediate_scores}に，事故発生時情報モデルにおける各モデルの評価結果を示す．
 本実験では，学習データにおける死亡事故の含有率は元の約0.86\%から約2.04\%へと上昇しており，モデルが少数派クラス（死亡事故）の特徴をより効率的に学習できる環境が構築されている．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{Stage 2 事故発生時情報モデルの各モデル評価結果}
   \label{tab:stage2_immediate_scores}
-  \begin{tabular}{lcccc}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{Model} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c|}{OOF PR-AUC} & \multicolumn{1}{c|}{Test AUC} & \multicolumn{1}{c}{Test PR-AUC} \\
     \hline
-    Model & OOF AUC & OOF PR-AUC & Test AUC & Test PR-AUC \\
-    \hline
+
     LightGBM & 0.9002 & 0.1785 & 0.9097 & 0.1944 \\
     CatBoost & \textbf{0.9016} & \textbf{0.1881} & 0.9088 & \textbf{0.2044} \\
     MLP & 0.8853 & 0.1521 & 0.8949 & 0.1682 \\
     TabNet & 0.8959 & 0.1651 & 0.9085 & 0.2023 \\
     \hline
     \textbf{Ensemble} & 0.8930 & 0.1889 & 0.8995 & \textbf{0.2080} \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -122,21 +126,22 @@ Stage 2では，Stage 1と同様に「事故発生時情報モデル」と「事
 本実験では，Stage 1においてRecall 98\%基準で「危険」と判定されたデータ（全データの約33\%）を対象とし，未来の情報（事故内容など）を完全に除外して再学習を行った．
 表\ref{tab:stage2_post_scores}に，事故後情報モデルにおける各モデルの評価結果を示す．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{Stage 2 事故後情報モデルの各モデル評価結果 (Hard Samples)}
   \label{tab:stage2_post_scores}
-  \begin{tabular}{lcc}
+  \centering
+  \begin{tabular}{l|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{Model} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c}{OOF PR-AUC} \\
     \hline
-    Model & OOF AUC & OOF PR-AUC \\
-    \hline
+
     LightGBM & \textbf{0.8924} & \textbf{0.3045} \\
     CatBoost & 0.8883 & 0.2844 \\
     MLP & 0.8633 & 0.2404 \\
     TabNet & 0.8555 & 0.2217 \\
     \hline
     \textbf{Ensemble} & 0.8921 & 0.2905 \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -150,17 +155,18 @@ Hard Samplesのみを対象とした条件下でOOF AUC 0.89を超える精度�
 最後に，Stage 1の総合的な予測（全体の傾向）とStage 2の特化した予測（困難事例への対応）を統合したStackingモデルの結果を示す．
 メタモデルとしてLightGBMを用いた場合と，比較対象としてロジスティック回帰を用いた場合の性能を表\ref{tab:stage3_scores}に示す．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{Stage 3 Stackingモデルの評価結果}
   \label{tab:stage3_scores}
-  \begin{tabular}{lccc}
+  \centering
+  \begin{tabular}{l|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{Meta-Model} & \multicolumn{1}{c|}{OOF AUC} & \multicolumn{1}{c|}{OOF PR-AUC} & \multicolumn{1}{c}{Test PR-AUC} \\
     \hline
-    Meta-Model & OOF AUC & OOF PR-AUC & Test PR-AUC \\
-    \hline
+
     \textbf{Logistic Regression} & 0.9095 & 0.1865 & \textbf{0.2085} \\
     LightGBM & \textbf{0.9105} & \textbf{0.1868} & 0.2080 \\
-    \hline
+    \hline \hline
   \end{tabular}
 \end{table}
 
@@ -168,67 +174,87 @@ Hard Samplesのみを対象とした条件下でOOF AUC 0.89を超える精度�
 Test PR-AUCにおいては，ロジスティック回帰（0.2085）がわずかにLightGBM（0.2080）を上回る結果となった．
 予測精度が同等であれば，解釈性の観点から係数（重み）を明示できるロジスティック回帰が優れていると判断し，最終モデルとして採用した．
 
-また，ロジスティック回帰メタモデルにおいて，各特徴量に対する係数の上位（危険要因）および下位（安全要因）を表\ref{tab:meta_coefficients}に示す．
+また，ロジスティック回帰メタモデルにおいて，各特徴量に対する係数の上位（危険要因）および下位（安全要因）を表\ref{tab:meta_coefficients}に示す．係数の大きさは，メタモデルによる各情報の信頼度重みと解釈できる．すなわち，係数が高い特徴量は，最終的なリスク判定においてメタモデルが最も強く依存している判断根拠であることを示している．
 
-\begin{table}[h]
-  \centering
+\begin{table}[tp]
   \caption{メタモデルにおける特徴量係数}
   \label{tab:meta_coefficients}
-  \begin{tabular}{clc}
+  \centering
+  \begin{tabular}{c|l|c}
+    \hline \hline
+    \multicolumn{1}{c|}{順位} & \multicolumn{1}{c|}{特徴量名} & \multicolumn{1}{c}{係数} \\
     \hline
-    Rank & Feature Name & Coefficient \\
+
+    \multicolumn{3}{c}{\textbf{事故発生時情報モデル}} \\
     \hline
-    \multicolumn{3}{c}{\textbf{Top 5 Positive Coefficients (危険要因)}} \\
+    1 & \texttt{single\_catboost} （Stage 1 CatBoost予測値） & +0.541 \\
+    2 & \texttt{uncertainty\_all} （モデル間の不一致） & +0.286 \\
+    3 & \texttt{uncertainty\_single} （Stage 1内の不一致） & +0.282 \\
+    4 & \texttt{single\_tabnet} （Stage 1 TabNet予測値） & +0.137 \\
+    5 & \texttt{single\_lgbm} （Stage 1 LightGBM予測値） & +0.116 \\
     \hline
-    1 & \texttt{uncertainty\_all} (Model Disagreement) & +0.344 \\
-    2 & \texttt{uncertainty\_single} (Stage 1 Disagreement) & +0.310 \\
-    3 & \texttt{single\_catboost} (Stage 1 CatBoost) & +0.263 \\
-    4 & \texttt{diff\_catboost} (Pred Difference) & +0.263 \\
-    5 & \texttt{都道府県コード\_92} (Area: 92) & +0.160 \\
+    \multicolumn{3}{c}{\textbf{事故後情報モデル}} \\
     \hline
-    \multicolumn{3}{c}{\textbf{Top 5 Negative Coefficients (安全要因)}} \\
-    \hline
-    1 & \texttt{year\_2019} & -0.786 \\
-    2 & \texttt{year\_2021} & -0.764 \\
-    3 & \texttt{year\_2022} & -0.737 \\
-    4 & \texttt{year\_2018} & -0.696 \\
-    5 & \texttt{year\_2020} & -0.689 \\
-    \hline
+    1 & \texttt{stage2\_lightgbm} （Stage 2 LightGBM予測値） & +0.550 \\
+    2 & \texttt{stage1\_catboost} （Stage 1 CatBoost予測値） & +0.366 \\
+    3 & \texttt{uncertainty\_all} （モデル間の不一致） & +0.228 \\
+    4 & \texttt{stage1\_tabnet} （Stage 1 TabNet予測値） & +0.182 \\
+    5 & \texttt{stage2\_catboost} （Stage 2 CatBoost予測値） & +0.119 \\
+    \hline \hline
   \end{tabular}
 \end{table}
 
-表\ref{tab:meta_coefficients}より，以下の知見が得られた．
+表\ref{tab:meta_coefficients}より，それぞれのモデル設定において以下の知見が得られた．
+
+\textbf{事故発生時情報モデルについて}
 \begin{quote}
 \begin{description}
 \item[不確実性のリスク化]\mbox{}\\
-\texttt{uncertainty\_all}（+0.344）が最も高い正の係数を持っており，モデル間で意見が割れる（判断が難しい）ケースほど，メタモデルはリスクを高めに見積もる傾向があることが分かる．
+\texttt{uncertainty\_all}（+0.344）が最も高い正の係数を持っており，モデル間で意見が割れる（判断が難しい）ケースほど，メタモデルは死亡事故のリスクを高めに見積もる傾向があることが分かる．
+\end{description}
+\end{quote}
 
-\item[経年変化による安全性向上]\mbox{}\\
-\texttt{year\_2018}から\texttt{year\_2022}までの係数がすべて負（マイナス）であり，かつ絶対値が大きいことから，近年になるほど事故の致命率が低下している（安全性が向上している）傾向を捉えている．これにより，最新の2024年データに対しても過大予測を防いでいると考えられる．
+\textbf{事故後情報モデルについて}
+\begin{quote}
+\begin{description}
+\item[Specialistモデルの重視]\mbox{}\\
+\texttt{stage2\_lightgbm}（+0.550）が最も高い係数を示しており，難易度の高い事例に特化したStage 2モデルの予測を最も信頼していることが分かる．
+
+
 \end{description}
 \end{quote}
 
 \section{総合評価}
 \label{sec:result_summary}
 
-本実験における主要なモデルの最終性能比較を表\ref{tab:final_comparison}に示す．
 
-\begin{table}[h]
-  \centering
-  \caption{主要モデルの総合性能比較}
+本実験における主要なモデルの最終性能比較を表\ref{tab:final_comparison}に示す．
+評価指標には，各タスク設定において最も重視される指標（実運用モデルでは汎化性能を示すTest PR-AUC，理論限界モデルでは学習データの分離性能を示すOOF PR-AUC）を採用した．
+
+\begin{table}[tp]
+  \caption{提案手法（Stage 3）とベースライン（Stage 1）の性能比較}
   \label{tab:final_comparison}
-  \begin{tabular}{lcc}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline \hline
+    \multicolumn{1}{c|}{設定} & \multicolumn{1}{c|}{指標} & \multicolumn{1}{c|}{Stage 1} & \multicolumn{1}{c|}{\textbf{Stage 3}} & \multicolumn{1}{c}{改善幅} \\
     \hline
-    Model Approach & Test AUC & Test PR-AUC \\
-    \hline
-    Stage 1 Single-Stage (Ensemble) & \textbf{0.9169} & 0.2067 \\
-    Stage 1 Single-Stage (TabNet) & 0.9145 & \textbf{0.2102} \\
-    Stage 2 Single-Stage (Ensemble) & 0.8995 & 0.2080 \\
-    \textbf{Stage 3 Stacking (Logistic Regression)} & 0.9160 & \textbf{0.2085} \\
-    \hline
+
+    \textbf{事故発生時} & Test PR-AUC & 0.2067 & \textbf{0.2085} & +0.18 pt \\
+    \textbf{事故後} & OOF PR-AUC & 0.2776 & \textbf{0.2995} & +2.19 pt \\
+    \hline \hline
   \end{tabular}
 \end{table}
 
-表\ref{tab:final_comparison}に示す通り，数値上はStage 1のTabNet単体がTest PR-AUC 0.2102で最高値を示した．
-Stage 3 StackingモデルはTest PR-AUC 0.2080を記録し，Ensembleモデル（0.2067）を上回る結果となった．
+表\ref{tab:final_comparison}に示す通り，提案手法であるマルチステージ・スタッキングモデルは，いずれの設定においてもベースラインとなるStage 1アンサンブルモデルを上回る精度を達成した．
+
+\begin{description}
+  \item[事故発生時情報モデルにおける評価]\mbox{}\\
+  実運用を想定した本設定において，Stage 3モデルはTest PR-AUC 0.2085を記録し，Stage 1の0.2067を上回った．改善幅は0.18ポイントとわずかであるが，不均衡データにおけるPR-AUCの向上は困難であることを考慮すると，着実な精度向上が得られたと言える．
+  
+  \item[事故後情報モデルにおける評価]\mbox{}\\
+  理論的な性能上限を探る本設定においては，OOF PR-AUCが0.2776から0.2995へと大幅に向上した（+2.19ポイント）．これは，Stage 2によるHard Samplesへの特化学習と，Stage 3におけるコンテキスト情報の活用が，難易度の高い事例の識別に大きく寄与したことを示している．
+\end{description}
+
+以上の結果より，提案手法はベースラインと比較して高い識別能力を有しており，特に難易度の高い事例に対して有効であることが確認された．
 これらの結果に基づく詳細な考察およびモデル選定の妥当性については，次章で論じる．

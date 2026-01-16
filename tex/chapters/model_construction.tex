@@ -16,7 +16,7 @@
 
 
 \subsection{LightGBM}
-LightGBM \cite{ke2017lightgbm} は，Microsoft Research の Guolin Ke らによって開発された，決定木ベースの勾配ブースティング手法である．
+LightGBM \cite{ke2017lightgbm} は，Microsoft Research の Guolin らによって開発された，決定木ベースの勾配ブースティング手法である．
 近年，データの大規模化に伴い，従来のGBDT（Gradient Boosting Decision Tree）の実装系では計算コストとメモリ消費量が大きな課題となっていた．
 LightGBMは，これらの課題を解決し，大規模データに対しても高速かつ高精度な学習を可能にすることを目的として設計された．
 
@@ -37,7 +37,7 @@ LightGBMは，カテゴリ変数を目的変数の勾配統計量に基づいて
 
 
 \subsection{CatBoost}
-CatBoost \cite{prokhorenkova2018catboost} は，Yandex の Anna Veronika Dorogush らによって開発された，カテゴリ変数の扱いに特化したGBDTライブラリである．
+CatBoost \cite{prokhorenkova2018catboost} は，Yandex の Dorogush らによって開発された，カテゴリ変数の扱いに特化したGBDTライブラリである．
 
 \subsubsection{学習アルゴリズムの特性}
 従来のブースティング手法で課題とされていた prediction shift（学習データとテストデータの分布の乖離）の問題を解決し，高精度かつ堅牢な予測を実現することを目的としている．
@@ -58,7 +58,7 @@ CatBoostの最大の特徴は，Ordered TS (Target Statistics) と呼ばれる�
 
 
 \subsection{TabNet}
-TabNet \cite{arik2021tabnet} は，Google Cloud AI の Sercan O. Arik らによって開発された，表形式データに特化したディープラーニングモデルである．
+TabNet \cite{arik2021tabnet} は，Google Cloud AI の Arik らによって開発された，表形式データに特化したディープラーニングモデルである．
 決定木が得意とする「特徴量選択を通じた解釈性」と，ニューラルネットワークが得意とする「表現学習能力」を統合し，前処理不要で高性能な学習を行うことを目指して設計された．
 
 \subsubsection{学習アルゴリズムの特性}
@@ -281,44 +281,46 @@ Benjamini-Hochberg法による多重検定補正を行い，補正後$p$値 $< 0
 
 まず，直ちに得られる情報のみを使用する\textbf{事故発生時情報モデル}においては，主に環境要因や位置情報が選定された（表\ref{tab:context_immediate}）．
 
-\begin{table}[htbp]
-  \centering
+\begin{table}[tp]
   \caption{事故発生時情報モデルにおけるコンテキスト特徴量}
   \label{tab:context_immediate}
-  \begin{tabular}{lll}
-    \toprule
-    特徴量 & 分類 & 選定理由（役割・解釈） \\
-    \midrule
-    \textbf{year} & 経年傾向 & 年によって事故パターンの難易度が異なる \\
-    \textbf{month} & 季節性 & 月ごとの環境変化がモデルの判断に影響 \\
-    \textbf{都道府県コード} & 広域地域性 & 都市部/地方部でのモデル性能差 \\
-    \textbf{area\_id} & 詳細地域性 & メッシュレベルでの局所的な特性 \\
-    \textbf{昼夜} & 視認性 & 昼と夜で信頼すべきモデルが変わる \\
-    \textbf{一時停止規制 表示 (A)} & 交通規制 & 当事者A（主原因側）の一時停止有無 \\
-    \textbf{一時停止規制 表示 (B)} & 交通規制 & 当事者B（相手方）の一時停止有無 \\
-    \textbf{速度規制 (指定のみ) (B)} & 速度環境 & 速度域によるリスク評価の食い違い \\
-    \bottomrule
+  \centering
+  \begin{tabular}{l|l|l}
+    \hline \hline
+    \multicolumn{1}{c|}{特徴量} & \multicolumn{1}{c|}{分類} & \multicolumn{1}{c}{選定理由（役割・解釈）} \\
+    \hline
+
+    year & 経年傾向 & 年によって事故パターンの難易度が異なる \\
+    month & 季節性 & 月ごとの環境変化がモデルの判断に影響 \\
+    都道府県コード & 広域地域性 & 都市部/地方部でのモデル性能差 \\
+    area\_id & 詳細地域性 & メッシュレベルでの局所的な特性 \\
+    夜間 & 視認性 & 昼と夜で信頼すべきモデルが変わる \\
+    一時停止規制 表示 (A) & 交通規制 & 当事者A（主原因側）の一時停止有無 \\
+    一時停止規制 表示 (B) & 交通規制 & 当事者B（相手方）の一時停止有無 \\
+    速度規制 (指定のみ) (B) & 速度環境 & 速度域によるリスク評価の食い違い \\
+    \hline \hline
   \end{tabular}
 \end{table}
 
-一方，詳細調査後の情報も利用可能な\textbf{事故後情報モデル}においては，相手方の属性や詳細な衝突状況など，よりミクロな要因が強く影響していることが判明した（表\ref{tab:context_post_accident}）．
+一方，詳細調査後の情報も利用可能な事故後情報モデルにおいては，相手方の属性や詳細な衝突状況など，よりミクロな要因が強く影響していることが判明した（表\ref{tab:context_post_accident}）．
 
-\begin{table}[htbp]
-  \centering
+\begin{table}[tp]
   \caption{事故後情報モデルにおけるコンテキスト特徴量}
   \label{tab:context_post_accident}
-  \begin{tabular}{lcl}
-    \toprule
-    特徴量 & 分類 & 選定理由（効果量と解釈） \\
-    \midrule
-    \textbf{当事者種別} & 相手方属性 & 予測難易度への影響が大 ($r=0.154$) \\
-    \textbf{車両の衝突部位} & 状況詳細 & 衝突形態が過失判断に直結 ($r=0.141$) \\
-    \textbf{geohash\_accidents\_past\_365d} & 事故履歴 & 事故多発地点か否かが確信度に影響 \\
-    \textbf{一時停止規制 標識} & 交通環境 & 交差点の複雑さを示す指標 \\
-    \textbf{用途別} & 相手方属性 & 事業用車両などの挙動特性差 \\
-    \textbf{traffic\_24h} & 交通量 & 交通状況の複雑さ \\
-    \textbf{peak\_ratio} & 交通量 & 混雑時の判断割れ要因 \\
-    \bottomrule
+  \centering
+  \begin{tabular}{l|c|l}
+    \hline \hline
+    \multicolumn{1}{c|}{特徴量} & \multicolumn{1}{c|}{分類} & \multicolumn{1}{c}{選定理由（効果量と解釈）} \\
+    \hline
+
+   当事者種別 & 相手方属性 & 予測難易度への影響が大 ($r=0.154$) \\
+    車両の衝突部位 & 状況詳細 & 衝突形態が過失判断に直結 ($r=0.141$) \\
+    geohash\_accidents\_past\_365d & 事故履歴 & 事故多発地点か否かが確信度に影響 \\
+    一時停止規制 標識 & 交通環境 & 交差点の複雑さを示す指標 \\
+    用途別 & 相手方属性 & 事業用車両などの挙動特性差 \\
+    traffic\_24h & 交通量 & 交通状況の複雑さ \\
+    peak\_ratio & 交通量 & 混雑時の判断割れ要因 \\
+    \hline \hline
   \end{tabular}
 \end{table}
 
