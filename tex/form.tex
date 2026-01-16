@@ -34,10 +34,17 @@
 % イントロダクション
 \input{chapters/introduction.tex}
 
+% 関連研究
+\input{chapters/related_research.tex}
+
 % 使用データと前処理
 \input{chapters/data_and_preprocessing.tex}
 
+%モデル構築
+\input{chapters/model_construction.tex}
 
+%結果
+\input{chapters/result.tex}
 
 \newpage
 \addcontentsline{toc}{chapter}{謝辞}
@@ -49,24 +56,7 @@
 \renewcommand{\bibname}{参考文献}
 \bibliographystyle{unsrt}
 %% 章ごとに分割されたBibTeXファイルを読み込み（空白禁止）
-\bibliography{bib/common,bib/introduction}
+\bibliography{bib/common,bib/introduction,bib/related_research,bib/data_and_preprocessing}
 
-\newpage
-\addcontentsline{toc}{chapter}{付録}
-\thispagestyle{empty}
-\vspace*{5.0truecm}
-\begin{center}
-{\Huge 付録}\\
-\end{center}
-\vspace*{5.0truecm}
-{\Large
- A. 第123回情報処理学会全国大会発表論文\\
- B. 質疑応答
-}
-
-\appendix{A}{\\第123回情報処理学会全国大会発表論文}
-\input{appendix/appendix.tex}
-\appendix{B}{\\質疑応答}
-\input{appendix/QA.tex}
 
 \end{document}
